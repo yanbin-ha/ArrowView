@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "ArrowView.h"
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
-
+@property (strong, nonatomic)ArrowView *view;
 @property (strong, nonatomic) UIWindow *window;
 
 @end

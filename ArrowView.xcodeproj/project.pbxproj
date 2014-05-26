@@ -19,6 +19,8 @@
 		8348CB8D1932CE3C00138CF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8348CB751932CE3B00138CF0 /* UIKit.framework */; };
 		8348CB951932CE3C00138CF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8348CB931932CE3C00138CF0 /* InfoPlist.strings */; };
 		8348CB971932CE3C00138CF0 /* ArrowViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8348CB961932CE3C00138CF0 /* ArrowViewTests.m */; };
+		8348CBA31932CE8F00138CF0 /* ArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8348CBA21932CE8F00138CF0 /* ArrowView.m */; };
+		8348CBAD1933077100138CF0 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 8348CBAB1933077100138CF0 /* play.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		8348CB921932CE3C00138CF0 /* ArrowViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArrowViewTests-Info.plist"; sourceTree = "<group>"; };
 		8348CB941932CE3C00138CF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8348CB961932CE3C00138CF0 /* ArrowViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrowViewTests.m; sourceTree = "<group>"; };
+		8348CBA11932CE8F00138CF0 /* ArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrowView.h; sourceTree = "<group>"; };
+		8348CBA21932CE8F00138CF0 /* ArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrowView.m; sourceTree = "<group>"; };
+		8348CBAB1933077100138CF0 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,7 @@
 		8348CB651932CE3B00138CF0 = {
 			isa = PBXGroup;
 			children = (
+				8348CBA01932CE6D00138CF0 /* ArrowViewClass */,
 				8348CB771932CE3B00138CF0 /* ArrowView */,
 				8348CB901932CE3C00138CF0 /* ArrowViewTests */,
 				8348CB701932CE3B00138CF0 /* Frameworks */,
@@ -121,6 +127,7 @@
 				8348CB791932CE3B00138CF0 /* ArrowView-Info.plist */,
 				8348CB7A1932CE3B00138CF0 /* InfoPlist.strings */,
 				8348CB7D1932CE3C00138CF0 /* main.m */,
+				8348CBAB1933077100138CF0 /* play.png */,
 				8348CB7F1932CE3C00138CF0 /* ArrowView-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -142,6 +149,15 @@
 				8348CB931932CE3C00138CF0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8348CBA01932CE6D00138CF0 /* ArrowViewClass */ = {
+			isa = PBXGroup;
+			children = (
+				8348CBA11932CE8F00138CF0 /* ArrowView.h */,
+				8348CBA21932CE8F00138CF0 /* ArrowView.m */,
+			);
+			path = ArrowViewClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +237,7 @@
 			files = (
 				8348CB7C1932CE3B00138CF0 /* InfoPlist.strings in Resources */,
 				8348CB841932CE3C00138CF0 /* Images.xcassets in Resources */,
+				8348CBAD1933077100138CF0 /* play.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +258,7 @@
 			files = (
 				8348CB821932CE3C00138CF0 /* AppDelegate.m in Sources */,
 				8348CB7E1932CE3C00138CF0 /* main.m in Sources */,
+				8348CBA31932CE8F00138CF0 /* ArrowView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
